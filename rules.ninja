@@ -61,7 +61,7 @@ rule CXX_STATIC_LIBRARY_LINKER__mycalculator
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /usr/bin/cmake -S/home/alexey/calculator -B/home/alexey/calculator
+  command = /usr/bin/cmake -S/home/sergey/calculator -B/home/sergey/calculator
   description = Re-running CMake...
   generator = 1
 
